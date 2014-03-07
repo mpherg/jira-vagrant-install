@@ -13,7 +13,7 @@ class must-have {
   apt::ppa { "ppa:webupd8team/java": }
 
   $jira_home = "/vagrant/jira-home"
-  $jira_version = "6.0"
+  $jira_version = "6.2"
 
   file { "sites-available.default":
     path => "/etc/apache2/sites-available/default",
